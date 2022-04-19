@@ -1,0 +1,17 @@
+{
+  "name": "hexplore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "dev": "parcel game.js",
+    "watch": "parcel watch game.js",
+    "build": "parcel build game.html --public-url ./"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  }
+}
