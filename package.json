@@ -1,17 +1,19 @@
 {
   "name": "hexplore",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "game.js",
   "license": "MIT",
   "devDependencies": {
+    "@ewanmellor/parcel-plugin-bundle-visualiser": "^1.2.901",
     "parcel-bundler": "^1.12.5"
   },
   "scripts": {
     "dev": "parcel game.js",
     "watch": "parcel watch game.js",
-    "build": "parcel build game.html --public-url ./"
+    "build": "parcel build game.js --public-url ./"
   },
   "dependencies": {
-    "phaser": "^3.55.2"
+    "phaser": "^3.55.2",
+    "phaser3-rex-plugins": "^1.1.68"
   }
 }
